@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git "https://github.com/mallikarjunn9/CloudAutomation"
+                git "https://github.com/mallikarjunn9/CloudAutomation.git"
             }
         }
         stage('Terraform init') {
